@@ -11,5 +11,64 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 
-<body></body>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="index.html">Latitude</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+		<ul class="navbar-nav">
+		  <li class="nav-item active">
+			<a class="nav-link" href="data.html">Data <span class="sr-only">(current)</span></a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="comparisons.html">Comparisons</a>
+		  </li>
+		  <li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="visualizations-1.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			  Visualizations
+			</a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+			  <a class="dropdown-item" href="visualizations-1.html">Latitude VS. Windspeeds</a>
+			  <a class="dropdown-item" href="visualizations-2.html">Latitude VS. Cloudiness</a>
+			  <a class="dropdown-item" href="visualizations-3.html">Latitude VS. Humidity</a>
+			  <a class="dropdown-item" href="visualizations-4.html">Latitude VS. Temperature</a>
+			</div>
+		  </li>
+		</ul>
+	  </div>
+	</nav>
+	<section>
+    <h1>Comparisons</h1>
+    <article>
+    <a target="_blank" href="visualizations-4.html">
+      <img src="visualizations/LatVStempWorld.png" class="mr-3" alt="Lat. VS. Temp Worldwide">
+    </a>
+    <p><em>Latitude VS. Temperature Chart</em></p>
+    </article>
+    <hr>
+    <article>
+    <a target="_blank" href="visualizations-3.html">
+    <img src="visualizations/LatVShumWorld.png" class="mr-3" alt="Latitude VS. Humidity Worldwide">
+    </a>
+    <p><em>Latitude VS. Humidity Chart</em></p>
+    </article>
+    <hr>
+    <article>
+      <a href="visualizations-2.html">
+      <img target="_blank" src="visualizations/LatVScloudWorld.png" class="mr-3" alt="Latitude VS. Cloudiness Worldwide">
+      </a>
+      <p><em>Latitude VS. Cloudiness Chart</em></p>
+    </article>
+    <hr>
+    <!-- an example using figure/ficaption -->
+    <figure>
+      <a target="_blank" href="visualizations-1.html">
+      <img src="visualizations/LatVSwindWorld.png" class="mr-3" alt="Latitude VS. Windspeed Chart">
+      </a>
+      <figcaption><em>Latitude VS. Windspeed</em></figcaption>
+    </figure>
+	</section>
+	</body>
 </html>
